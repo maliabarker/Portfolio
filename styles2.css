@@ -75,6 +75,9 @@ nav a:hover {
 }
 /* header style end */
 
+/* --------------------------------------------- */
+
+/* about me style start */
 .about_me {
     display: flex;
     flex-direction: row;
@@ -99,7 +102,11 @@ nav a:hover {
     height: 250px;
     border: solid;
 }
+/* about me end */
 
+/* --------------------------------------------- */
+
+/* work sample start */
 #Work_Samples > h2 {
     font-size: 3em;
     font-weight: 300;
@@ -111,12 +118,47 @@ nav a:hover {
     margin: 20px;
 }
 
+.Relevant_Work > li {
+    padding-top: 25px;
+}
+
+li a:link{
+    color: #2966ac;
+}
+
+li a:visited{
+    color: #1e4a7e;
+}
+
+li a:hover{
+    color: #317ad3;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
     border-radius: 15px;
+}
+
+button a:link{
+    color: #2966ac;
+}
+
+button a:visited{
+    color: #1e4a7e;
+}
+
+button a:hover{
+    color: #317ad3;
 }
 
 .Relevant_Work {
@@ -124,7 +166,11 @@ button {
     list-style-type: none;
     line-height: 30px;
 }
+/* work sample end */
 
+/* --------------------------------------------- */
+
+/* skills and interests start */
 .skills > h2 {
     font-size: 3em;
     font-weight: 300;
@@ -137,3 +183,4 @@ button {
     margin-bottom: 70px;
     line-height: 30px;
 }
+/* skills and interests end */
