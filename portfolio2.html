@@ -18,7 +18,6 @@
                         <li> <a href = "#About_Me"> About Me </a> </li>
                         <li> <a href = "#Work_Samples"> Work Samples </a></li>
                         <li> <a href = "#Skills_And_Interests"> Skills and Interests </a> </li>
-                        <li> <a href = "#Online_Presence"> Online Profiles &amp; Social Media </a> </li>
                     </ul>
                 </nav>
                 <div class="socials">
@@ -31,13 +30,13 @@
         
         <main>
             <section id="About_Me">
-                    <h2> About Me </h2>
-                    <div class="About_Me">
-                        <img class="Profile_Img"
+                    <h2 data-aos="fade-up-right">About Me</h2>
+                    <div data-aos="zoom-in-up" class="about_me">
+                        <img class="profile_img"
                             src = "images/profilepic.png"
                             alt = "Malia Barker Profile Photo"
                             width = "200" height = "auto">
-                        <p class="About_Me_P"> I am currently a student at the Dominican University of California in San Rafael. <br>
+                        <p> I am currently a student at the Dominican University of California in San Rafael. <br>
                             I am pursuing a Bachelor's of Applied Computer Science with a concentration in Data Science. <br>
                             I am interested in the inter-disciplinary work computer science has to offer. Any and all fields of science can be improved with computer programs. <br>
                             Whether it be a computer model to visualize data or even just a simple graph drawn through Python, I believe computer science can be used to improve every field of study. <br>
@@ -45,62 +44,42 @@
                     </div>
             </section>
 
-            <section id="Work_Samples">
-                    <h2> Work Samples </h2>
+            <section id="Work_Samples" class="work_samples">
+                    <h2 data-aos="fade-up-left"> Work Samples </h2>
+                    <div data-aos="zoom-in-up">
                     <p> Some of my relevant work includes: </p>
                     <ul class="Relevant_Work">
                         <li> A publication in the <a href = "http://www.jdso.org/volume15/number2/Howlett_248_254.pdf"> Journal of Double Star Observations Vol.15 No.2 </a> </li>
                         <li> Participation in Google's 2021 Computer Science Summer Institute which included a final collaborative project. My partner, Arthur Lachlan Gerrety and I created a simple platform style game that is loosley based off the app Doodle Jump. <a href="https://cssi-finalproject-artma.glitch.me/"> Click here to play the game! </a> </li>
-                        <li> Languages include HTML, Python, and proficient knowledge of JavaScript's P5 library </li>
+                        <li> Proficient in HTML, CSS, Python, and thorough knowledge of JavaScript's P5 library </li>
                     </ul>
-                <footer>
-                    <p>
+                    <footer>
                         <button> <a href = "https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute/"> Click Here to Learn More about Google CSSI </a> </button>
                         <button> <a href = "https://maliabarker.weebly.com/work-samples.html"> Click Here to View More Work Samples </a> </button>
-                    </p>
-                </footer>
+                    </footer>
+                    </div>
             </section>
             
-            <section id  = "Skills_And_Interests">
-                <header>
-                    <h2> Skills &amp; Interests </h2>
-                        <ul>
-                            <li> Python </li>
-                            <li> HTML </li>
-                            <li> JavaScript and the JavaScript P5 Library </li>
-                            <li> Crocheting and Sewing to Combat Fast Fashion </li>
-                            <li> Cooking Health Conscious Meals </li>
-                        </ul>
-                    </header>
-                </section>
-            
-            <section id = "Online_Presence">
-                <h2> Online &amp; Social Profiles </h2>
-                        <a href = "https://www.linkedin.com/in/malia-barker-00b02621a/"> <img = 
-                        src = "images/Linkedin.png"
-                        alt = "Linked In Profile"
-                        width = "120" height = "auto" >
-                        </a>
-                        <a href = "https://github.com/maliabarker">
-                        <img = 
-                        src = "images/github.jpeg"
-                        alt = "Github Profile"
-                        width = "120" height = "auto" >
-                        </a>
-                        <a href = "https://www.instagram.com/maliabarker/?hl=en">
-                        <img = 
-                        src = "images/insta.jpeg"
-                        alt = "Instagram Profile"
-                        width = "120" height = "auto" >
-                        </a>
+            <section id ="Skills_And_Interests">
+                <header class="skills">
+                    <h2 data-aos="fade-up-right"> Skills &amp; Interests </h2>
+                    <ul data-aos="zoom-in-up">
+                        <li> Python </li>
+                        <li> HTML </li>
+                        <li> JavaScript and the JavaScript P5 Library </li>
+                        <li> Crocheting and Sewing to Combat Fast Fashion </li>
+                        <li> Cooking Health Conscious Meals </li>
+                    </ul>
+                </header>
             </section>
         </main>
     </article>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            // Initialize Animate On Scroll
-            AOS.init();
-        </script>         
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize Animate On Scroll
+        AOS.init();
+    </script>         
     
     </body>
 </html>

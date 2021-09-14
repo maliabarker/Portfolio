@@ -4,12 +4,8 @@ body {
     color: white;
 }
 
-h1 {
-    font-size: 4em;
-    font-weight: 400;
-    /* text-align: center; */
-}
 
+/* header style start */
 .header {
     font-size: 2em;
     text-align: center;
@@ -23,12 +19,27 @@ h1 {
 
 .name {
     grid-area: h;
+    font-size: 4em;
+    font-weight: 400;
 }
 
-nav > .nav{
+.nav{
     list-style-type: none;
-    padding: 85px;
+    padding-top: 150px;
+    line-height: 60px;
     grid-area: n;
+}
+
+nav a:link{
+    color: #2966ac;
+}
+
+nav a:visited {
+    color: #1e4a7e;
+}
+
+nav a:hover {
+    color: #317ad3;
 }
 
 .socials > a {
@@ -58,42 +69,46 @@ nav > .nav{
 }
 
 .tag_line {
-    margin-top: 0.5px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 180px;
     grid-area: t;
 }
-/* .Top_Header, .Nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #0d2f57;
-}
+/* header style end */
 
-.Top_Header, .Socials {
-    display: flex;
-} */
-
-.Relevant_Work {
-    text-align: center;
-    list-style-type: none;
-}
-
-h2 {
-    font-size: 3em;
-    font-weight: 300;
-    text-align: center;
-    margin-right: 500px;
-}
-
-.About_Me {
+.about_me {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 50px;
+    padding-bottom: 200px;
 }
 
-.About_Me_P {
+.about_me > p {
     padding: 20px;
+    line-height: 30px;
+}
+
+#About_Me > h2 {
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 500px;
+} 
+
+.profile_img {
+    height: 250px;
+    border: solid;
+}
+
+#Work_Samples > h2 {
+    font-size: 3em;
+    font-weight: 300;
+    text-align: right;
+    margin-right: 180px;
+}
+
+.work_samples {
+    margin: 20px;
 }
 
 button {
@@ -104,19 +119,21 @@ button {
     border-radius: 15px;
 }
 
-#Online_Presence a {
-    margin: 50px;
-    padding: 50px;
+.Relevant_Work {
+    text-align: center;
+    list-style-type: none;
+    line-height: 30px;
 }
 
-nav a:link{
-    color: #2966ac;
+.skills > h2 {
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 500px;
+    margin-top: 200px;
 }
 
-nav a:visited {
-    color: #1e4a7e;
-}
-
-nav a:hover {
-    color: #317ad3;
+.skills > ul {
+    margin-bottom: 70px;
+    line-height: 30px;
 }
