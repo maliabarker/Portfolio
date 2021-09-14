@@ -1,0 +1,122 @@
+body {
+    background-color: #102338;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+.header {
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h n"
+                         "s b"
+                         "t t";
+}
+
+.name {
+    grid-area: h;
+}
+
+nav > .nav{
+    list-style-type: none;
+    padding: 85px;
+    grid-area: n;
+}
+
+.socials > a {
+    text-decoration: none;
+    color: #2966ac;
+}
+
+.socials {
+    grid-area: s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10px;
+    margin-top: -80px;
+}
+
+.socials > a:link {
+    color:#2966ac
+}
+
+.socials > a:visited {
+    color: #1e4a7e;
+}
+
+.socials > a:hover {
+    color: #317ad3;
+}
+
+.tag_line {
+    margin-top: 0.5px;
+    margin-bottom: 100px;
+    grid-area: t;
+}
+/* .Top_Header, .Nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #0d2f57;
+}
+
+.Top_Header, .Socials {
+    display: flex;
+} */
+
+.Relevant_Work {
+    text-align: center;
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 500px;
+}
+
+.About_Me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.About_Me_P {
+    padding: 20px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#Online_Presence a {
+    margin: 50px;
+    padding: 50px;
+}
+
+nav a:link{
+    color: #2966ac;
+}
+
+nav a:visited {
+    color: #1e4a7e;
+}
+
+nav a:hover {
+    color: #317ad3;
+}
